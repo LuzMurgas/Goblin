@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(img/background.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    font: 14px/20px "Lato", Arial, sans-serif;
+    margin-top: 30px;
+}
+
+.slide-container {
+    margin: auto;
+    width: 600px;
+    text-align: center;
+}
+
+.clash-card{
+    width: 298px;
+    min-height: 0px auto;
+    margin: 100px auto;
+    border-radius: 16px 16px 16px 16px;
+    background: #f5f5f5;
+    position: relative;
+}
+
+.card__top {
+    background-image: url(img/goblin-bg.jpeg);
+    width: 298px;
+    height: 231px;
+    flex-shrink: 0;
+    border-radius: 16px 16px 0px 0px;
+    position: relative;
+    text-align: center;
+}
+
+.card__img{
+    width: 370px;
+height: 283.975px;
+flex-shrink: 0;
+position: absolute;
+top: -21px;
+right: -37px;
+}
+
+.card__content {
+    padding: 20px;
+    text-align: center;
+}
+
+.card__level {
+    color: #82BB30;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.card__title {
+    color: #000;
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    height: 40px;
+}
+
+.card__paragraph {
+    color: #A2A2A2;
+    width: 262px;
+    height: 150px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    margin: 3px auto;
+}
+
+.card__bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: #83BC30;
+    border-radius: 0 0 16px 16px;
+    position: absolute;
+    left: 0px;
+    right: 751px;
+    top: 405px;
+    width: 298px;
+
+}
+
+
+.card__bottom--two{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    padding: 25px 20px 23px 21px;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    border-left: 1px solid #6DA72C; /* Borde izquierdo */
+    border-right: 1px solid #6DA72C; /* Borde derecho */
+    
+}
+
+
+
+.card__bottom--one {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    border-radius: 0 0 0 16px;
+    display: flex;
+    padding: 17px 20px 23px 21px;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    font-weight: 600;
+
+}
+
+.card__bottom--three {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    border-radius: 0 0 16px 0;
+    display: flex;
+    padding: 25px 29px 23px 21px;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    font-weight: 600;
+
+
+}
+
+.stat-value {
+    font-size: 15px;
+}
